@@ -3,21 +3,39 @@
 <head>
 	
 	<style>
-p {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    color: #00FFFF;
-    position: absolute;
-
+#example1 
+{
+	height: 1000px;
+    width: 1000px;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+   
+}
+video
+{
+   position: relative;
+    top: 100px;
+    right: -250px;
+}
+a
+{
+    position: relative;
+    top: 170px;
+    right: -160px;
 }
 </style>
 </head>
 <body>
+<div id="example1">
+<video width="500" height="450" controls>
+  <source src="assets/animation01.mp4" type="video/mp4">
+</video>
+<a href = "part2.html">
+	 <img src="assets/next.png">
+</a>
+</div>
 
-<img src="assets/bg.png">
-<p>Rotation of the Earth</p>
+
+</div>
 </body>
 </html>
